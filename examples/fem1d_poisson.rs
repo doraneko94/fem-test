@@ -142,7 +142,7 @@ fn main() {
     fg.axes2d().lines(exact_x.iter(), exact_y.iter(), &[gnuplot::Color("red"), gnuplot::Caption("u(x)")])
                .lines(node_x_glo.iter(), unknown_vec_u.iter(), &[gnuplot::Color("blue"), gnuplot::Caption("u*(x)")])
                .points(node_x_glo.iter(), unknown_vec_u.iter(), &[gnuplot::Color("black")])
-               .set_title("fem1d_poisson", &[])
+               .set_title("fem1d poisson", &[])
                .set_x_label("x", &[])
                .set_y_label("y", &[]);
     fg.echo_to_file("fem1d_poisson.plt");
