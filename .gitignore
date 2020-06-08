@@ -3,3 +3,4 @@
 Cargo.lock
 *.plt
 *.csv
+/.ipynb_checkpoints
